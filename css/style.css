@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    background-color: #413543;
+    align-items: center;
+    padding: 0 2rem;
+
+}
+
+.navbar__image{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.navbar__content{
+    width: 80vw;
+    height: 100%;
+    padding: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+
+}
+
+.navbar__content > a{
+    padding: 2;
+    font-size: 1.25rem;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 2rem ;
+    color:white;
+}
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
